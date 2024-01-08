@@ -87,7 +87,6 @@
     position: relative;
     display: block;
     margin: auto;
-
 }
 
 .top-image {
@@ -147,8 +146,6 @@
     height: 600px;
     display: block;
     margin: 100px auto 0px;
-    width: 1320px;
-    height: 482px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 
@@ -174,7 +171,7 @@
 }
 
 .joinb {
-    padding-left: 575px;
+    margin-left: 580px;
     padding: 16px 32px;
     gap: 10px;
     border-radius: 8px;
@@ -188,4 +185,115 @@
     line-height: normal;
     text-transform: uppercase;
     border: none;
+}
+
+.foot {
+    margin: auto;
+    width: 1600px;
+    height: 609px;
+    background-color: black;
+}
+
+.contact {
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 120px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.social-media {
+    justify-content: center;
+    padding-left: 640px;
+    padding-top: 30px;
+}
+
+.copyright {
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 150px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.sec7 {
+    position: relative;
+    display: block;
+    margin: 100px auto 120px;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.atthe {
+    padding: 80px 585px 0px 585px;
+}
+
+.sub {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.sec7p {
+    padding-left: 212px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+}
+
+.btnn {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputt {
+    width: 648px;
+    height: 72px;
+    margin-left: 340px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+}
+
+.inputtbtn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: -200px;
+    border: none;
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+
+.inputt::placeholder {
+    padding-right: 450px;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
 }
